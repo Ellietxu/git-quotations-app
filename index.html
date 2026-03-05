@@ -4,10 +4,26 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Kata Citation</title>
+    <title>Quotations</title>
   </head>
   <body>
-    <h1>"Tous les chemins mènent au rhum !" by me</h1>
+    <h1>Mes citations</h1>
+    <h2>Gestionnaire de citations en ligne</h2>
+    <h3>0 citation</h3>
+    <hr />
+    <form action="" id="citationForm">
+      <label id="citationLabel">Citation</label>
+      <input type="text" id="citation" />
+      <label id="authorLabel">Autrice/Auteur</label>
+      <input type="text" id="author" />
+      <button type="submit">Submit</button>
+    </form>
+    <div id="quote-list">
+      <div class="quote">
+        <p class="text">Citation : "On ne naît pas femme, on le devient."</p>
+        <p class="author">Autrice : Simone de Beauvoir</p>
+      </div>
+    </div>
   </body>
   <script src="script.js"></script>
 </html>
