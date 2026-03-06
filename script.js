@@ -19,11 +19,11 @@ citationForm.addEventListener("submit", function (event) {
 function addQuote(quote, author) {
   const quoteAdd = document.createElement("p");
   quoteAdd.classList.add("text");
-  quoteAdd.textContent = `Citation : "${quote}"`;
+  quoteAdd.textContent = `🗨️ "${quote}"`;
 
   const authorAdd = document.createElement("p");
   authorAdd.classList.add("author");
-  authorAdd.textContent = `Autrice/auteur : ${author}`;
+  authorAdd.textContent = `🐰 ${author}`;
 
   const divQuote = document.createElement("div");
   divQuote.classList.add("quote");
