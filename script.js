@@ -76,11 +76,16 @@ storedData.forEach((citation) => {
   addQuote(citation.text, citation.author);
 });
 
-// const clearBtn = document.getElementById("clearQuotes");
+/*
+//! vider le localStorage avec un bouton
 
-// clearBtn.addEventListener("click", () => {
-//   localStorage.removeItem("citations");
-//   quoteList.innerHTML = "";
-//   quoteCount = 0;
-//   document.getElementById("count").innerText = "0 citations";
-// });
+const clearBtn = document.getElementById("clearQuotes");
+
+clearBtn.addEventListener("click", () => {
+  localStorage.removeItem("citations");
+  quoteList.innerHTML = "";
+  quoteCount = 0;
+  document.getElementById("count").innerText = "0 citations";
+});
+
+*/
