@@ -67,7 +67,7 @@ input {
   background: #fffafc;
 }
 
-/* Focus */
+/* Effet de focus */
 input:focus {
   outline: none;
   border-color: #ff8fab;
